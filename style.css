@@ -1,0 +1,131 @@
+body { 
+font-size: 16px;
+font-family: 'Times New Roman', sans-serif;
+background-color: yellow;
+color: #fff;
+box-sizing: border-width;
+}
+#header-nav { 
+background-color: grey;
+border-radius: 0;
+border: 0;
+}
+#logo-img { 
+background: url('Kamsan-logo.png') no-repeat;
+width: 150px;
+height: 150px;
+margin: 10px 15px 10px 0;
+}
+.navbar-brand { 
+padding-top: 25px;
+}
+.navbar-brand h1 { 
+font-family: 'Ariel', serif;
+color: skyblue;
+font-size: 1.5em;
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom: 0;
+line-height: 0.75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus { 
+text-decoration: none;
+}
+.navbar-brand p { 
+text-transform: uppercase;
+color: white;
+font-size: .7em;
+margin-top: 15px;
+}
+.navbar-toggler { 
+ padding: 0.25rem;
+ font-size: 1.25rem;
+ line-height: 1;
+ background-color: orange;
+ border: 1px solid skyblue;
+ border-radius: 0.75;
+
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  content: "Menu";
+  background: no-repeat center;
+  background-size: 100%;
+}
+
+.topic {
+background-color: orange;
+color: black;
+margin: 10px;
+border: 5px solid black;
+padding: 8px;
+overflow: auto;
+text-align: left;
+float: left;
+}
+
+h3 { 
+background-color: grey;
+color: #fff;
+text-align: center;
+margin-bottom: 5px;
+margin-top: 5px;
+padding: 0;
+
+}
+.p-image { 
+width: auto;
+height: 150px;
+margin-left: auto;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+h2 { 
+color: #000;
+text-align: center;
+margin: 5px;
+}
+
+.navbar-header button.navbar-toggler, .navbar-header .navbar-toggler-icon { 
+border: 1px solid skyblue;
+}
+
+.navbar-header button.navbar-toggler { 
+clear: both;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: orange;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#collapsable-nav a { 
+font-size: 1.2em;
+}
+
+@media (min-width: 1200px) { 
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (max-width: 767px) { 
+}
+
